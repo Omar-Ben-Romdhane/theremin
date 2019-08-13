@@ -6,10 +6,6 @@
  * connect Oscillator on digital pin 5
  * connect Speaker with 1K Resistor in series on pin 8
 
- * KHM 2008 /  Martin Nawrath
- * Kunsthochschule fuer Medien Koeln
- * Academy of Media Arts Cologne
-
  */
 #include <Stdio.h>
 #define cbi(sfr, bit) (_SFR_BYTE(sfr) &= ~_BV(bit))
